@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Ownglyph_ryuttung-Rg';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405-2@1.0/Ownglyph_ryuttung-Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'SBAggroB';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+img {
+    width:150px;
+    border-radius: 35px;
+}
+h1 {
+    font-family: 'SBAggroB';
+    
+}
+p {
+  font-family: 'Ownglyph_ryuttung-Rg';
+  font-size:25px;
+}
+body {
+  background-color: rgb(255, 246, 218);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  background-color: rgb(240,151,69);
+  width: 300px;
+  margin: 30px;
+  padding: 30px;
+  font-size: 20px;
+  color:white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  transition: transform 1.0s;
+}
+a:hover {
+  background-color: rgb(255, 175, 100);
+  color: black;
+  transform: scale(1.1);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.425);
+}
+
